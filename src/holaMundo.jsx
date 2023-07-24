@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HolaMundo = () => {
-  return <div>Hola, mundo!</div>;
+  return <div>¡HOLA MUNDO!</div>;
 };
 
 export default HolaMundo;

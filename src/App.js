@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import HolaMundo from './holaMundo';
 import Contador from './contador';
@@ -9,12 +8,14 @@ import RelojDigital from './relojDigital';
 const App = () => {
   return (
     <div>
-      {/* Aquí puedes renderizar los componentes que quieras probar */}
-      {/* Ejemplo: */}
       <HolaMundo />
+      <br />
       <Contador />
+      <br />
       <ListaDeTareas />
+      <br />
       <RelojDigital />
+      <br />
     </div>
   );
 };

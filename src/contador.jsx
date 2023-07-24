@@ -20,7 +20,7 @@ class Contador extends Component {
   render() {
     return (
       <div>
-        <p>Contador: {this.state.contador}</p>
+        <p>CONTADOR: {this.state.contador}</p>
         <button onClick={this.aumentarContador}>Aumentar</button>
         <button onClick={this.reiniciarContador}>Reiniciar</button>
       </div>
